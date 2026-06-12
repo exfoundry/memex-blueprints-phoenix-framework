@@ -2,7 +2,7 @@
 
 ## Context
 
-Every LiveView needs a page title, a path for nav active state, and breadcrumb context. Without a standard these scatter across templates and layouts. The [`phoenix_page_meta`](https://github.com/exfoundry/phoenix_page_meta) library centralises this into a single struct with compile-time field validation — forgetting `:title`, `:path`, or `:parent` is a `mix compile` error, not a runtime crash.
+Every LiveView needs a page title, a path for nav active state, and breadcrumb context. Without a standard these scatter across templates and layouts. The [`phoenix_page_meta`](https://github.com/saschabrink/phoenix_page_meta) library centralises this into a single struct with compile-time field validation — forgetting `:title`, `:path`, or `:parent` is a `mix compile` error, not a runtime crash.
 
 ## Decision
 
